@@ -16,7 +16,7 @@ public class PlayerMovement2 : MonoBehaviour
     {
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
-        Vector3 destination = new Vector3(horizontal, 0, vertical);
+        Vector3 destination = new Vector3(horizontal, 0, 1);
         transform.Translate(destination * speed * Time.deltaTime);
     }
 }
