@@ -145,6 +145,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77aeb367eb084c4b8b7031ce7297529, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &74602100
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74602095}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0000002, y: 2.0000002, z: 2.000001}
+  m_Center: {x: 0.00000011920929, y: -1.0164395e-20, z: -0.00000017881398}
 --- !u!1001 &81725565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -438,6 +451,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: gem
+      objectReference: {fileID: 0}
+    - target: {fileID: 748992279688134215, guid: 050efd230c4094246b4f2c6039b362e7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 748992279688134217, guid: 050efd230c4094246b4f2c6039b362e7,
         type: 3}
@@ -3505,6 +3523,7 @@ MonoBehaviour:
   score: 0
   scoreText: {fileID: 0}
   Pickup: {fileID: 74602095}
+  door: {fileID: 1268341939}
 --- !u!1 &1294329856 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 1a3e3b7e3e65ab74b85d4b467c829b59,

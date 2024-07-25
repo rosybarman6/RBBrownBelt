@@ -8,6 +8,7 @@ public class Pickups : MonoBehaviour
     public int score;
     public Text scoreText;
     public GameObject Pickup;
+    public GameObject door; 
 
     void Start()
     {
@@ -16,13 +17,16 @@ public class Pickups : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log(hello);
+        Debug.Log(other.gameObject);
         if (other.gameObject.CompareTag("coin"))
         {
+            /*
             score++;
             scoreText.text = score.ToString();
+            */
             Destroy(other.gameObject);
             //Pickup.Play();
+            Destroy(door);
         }
     }
 }

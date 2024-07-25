@@ -11,7 +11,7 @@ public class Timer : MonoBehaviour
 
     void Update()
     {
-        timer += .01f; //Time.deltaTime;
+        timer += .001f; //Time.deltaTime;
         
         //as long as the player is still in the maze (not gameover), then update the timer on the screen
         if(!gameOver){
