@@ -4,21 +4,32 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
+    public float yForce;
+    private Rigidbody2D enemyRigidbody;
     public float speed;
 
+    void Start()
+    {
+        enemyRigidbody = GetComponent<Rigidbody2D>();
+    }
     private void FixedUpdate()
     {
         if(transform.position.x <= -8)
         {
-            speed = speed * -1;
+            
         }
         if (transform.position.x >= 8)
         {
-            speed = speed * -1;
+            
         }
-        float newXPosition = transform.position.x + speed * Time.deltaTime;
-        float newYPosition = transform.position.y;
-        Vector2 newposition = new Vector2(newXPosition, newYPosition);
-        transform.position = newposition;
+        
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collison.gameObject.tag == "Ground")
+        {
+
+        }
     }
 }
