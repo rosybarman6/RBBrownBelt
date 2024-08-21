@@ -7,6 +7,7 @@ public class EnemyMovement : MonoBehaviour
     public float yForce;
     public float xForce;
     public float xDirection;
+    public float yDirection;
     private Rigidbody2D enemyRigidbody;
     
 
@@ -26,7 +27,12 @@ public class EnemyMovement : MonoBehaviour
             xDirection = -1;
             enemyRigidbody.AddForce(Vector2.left * xForce);
         }
-        
+        if (transform.position.y >= 1436)
+        {
+            yDirection = 1;
+            enemyRigidbody.AddForce(Vector2.up * yForce);
+        }
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
