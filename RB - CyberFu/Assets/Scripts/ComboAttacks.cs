@@ -57,14 +57,62 @@ public class ComboAttacks : MonoBehaviour
         {
             anim.SetBool("Attack2", false);
             anim.SetBool("Attack1", false);
+            
+        }
+    }
+    public void return3()
+    {
+        if (NumberOfButtonsPressed >= 3)
+        {
+            anim.SetBool("Attack4", true);
+        }
+        else
+        {
+            anim.SetBool("Attack2", false);
+            anim.SetBool("Attack1", false);
+            anim.SetBool("Attack3", false);
         }
     }
 
-    public void return3()
+    public void return4()
+    {
+        if (NumberOfButtonsPressed >= 3)
+        {
+            anim.SetBool("Attack5", true);
+        }
+        else
+        {
+            anim.SetBool("Attack2", false);
+            anim.SetBool("Attack1", false);
+            anim.SetBool("Attack3", false);
+            anim.SetBool("Attack4", false);
+        }
+    }
+    public void return5()
+    {
+        if (NumberOfButtonsPressed >= 3)
+        {
+            anim.SetBool("Attack6", true);
+        }
+        else
+        {
+            anim.SetBool("Attack2", false);
+            anim.SetBool("Attack1", false);
+            anim.SetBool("Attack3", false);
+            anim.SetBool("Attack4", false);
+            anim.SetBool("Attack5", false);
+        }
+    }
+
+
+    public void return6()
     {
         anim.SetBool("Attack1", false);
         anim.SetBool("Attack2", false);
         anim.SetBool("Attack3", false);
+        anim.SetBool("Attack4", false);
+        anim.SetBool("Attack5", false);
+        anim.SetBool("Attack6", false);
         NumberOfButtonsPressed = 0;
     }
 }
