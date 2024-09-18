@@ -1147,7 +1147,7 @@ MonoBehaviour:
     type: 3}
   Enemy: {fileID: 3632139631492857891, guid: 9cd2235cef406814b9970102f2f41555, type: 3}
   spawnRate: 5
-  sspawnRate: 5
+  sspawnRate: 10
 --- !u!4 &1353465360
 Transform:
   m_ObjectHideFlags: 0

@@ -14,7 +14,7 @@ public class EnemyEmitterController : MonoBehaviour
     private PlayerControls playerController;
     public float spawnRate;
     private float nextSpawn = 5.0f;
-    private float nextnextSpawn = 1.0f;
+    private float nextnextSpawn = 10.0f;
     public float sspawnRate;
 
     void Start()
@@ -43,15 +43,18 @@ public class EnemyEmitterController : MonoBehaviour
             {
                 float randomX = Random.Range(-6.0f, 6.0f);
                 Vector3 enemyPosition = new Vector3(randomX, 6, 0);
+                Vector3 GiantenemyPosition = new Vector3(randomX, 6, 0);
                 transform.position = enemyPosition;
+                transform.position = GiantenemyPosition;
                 Instantiate(Enemy, transform.position, transform.rotation);
+                Instantiate(GiantEnemy, transform.position, transform.rotation);
 
             }
 
             if (Time.time > nextnextSpawn)
             {
                 nextnextSpawn = Time.time + sspawnRate;
-                GameObject GiantEnemy = GameObject.Find("GiantEnemy");
+                //GameObject GiantEnemy = GameObject.Find("GiantEnemy");
             }
 
 
