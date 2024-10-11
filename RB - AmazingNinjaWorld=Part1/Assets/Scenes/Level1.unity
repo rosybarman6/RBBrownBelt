@@ -254,26 +254,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &68873015 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1930300910380831704, guid: 96524b76c6a28e54d8bf1b2e3d7ddb55, type: 3}
-  m_PrefabInstance: {fileID: 1930300910446459119}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &68873020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 68873015}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2685e536c2c1474292b68135e56e611, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gem: {fileID: 468184293}
-  background: {fileID: 1875767817}
-  teleportDestination: Level1_A
 --- !u!4 &79126317 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: a3614c18f3e6c7142832df541b2a093c, type: 3}
@@ -844,6 +824,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 748992279688134212, guid: 050efd230c4094246b4f2c6039b362e7, type: 3}
   m_PrefabInstance: {fileID: 748992279543665313}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &468184298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468184293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2685e536c2c1474292b68135e56e611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LifeHUD: {fileID: 320905968}
+  gem: {fileID: 468184293}
+  background: {fileID: 1875767817}
+  teleportDestination: Level1_A
 --- !u!1001 &573553711
 PrefabInstance:
   m_ObjectHideFlags: 0

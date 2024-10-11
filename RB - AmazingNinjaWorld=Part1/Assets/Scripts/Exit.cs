@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Exit : MonoBehaviour
 {
-    public GameObject HealPlayer;
+    public LifeHUD LifeHUD;
     private int lives = 3;
     SpriteRenderer m_renderer;
     public GameObject gem;
@@ -15,7 +15,8 @@ public class Exit : MonoBehaviour
     private void Start()
     {
         m_renderer = gem.GetComponent<SpriteRenderer>();
-       
+      
+
     }
 
     
@@ -25,7 +26,7 @@ public class Exit : MonoBehaviour
         if(m_renderer.enabled == false)
         {
             background.GetComponent<GameManager>().TeleportOpen(teleportDestination);
-            HealPlayer();
+            LifeHUD.HealPlayer();
         }
         
     }
