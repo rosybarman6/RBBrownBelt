@@ -729,6 +729,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96524b76c6a28e54d8bf1b2e3d7ddb55, type: 3}
+--- !u!1 &279591224 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1930300910380831704, guid: 96524b76c6a28e54d8bf1b2e3d7ddb55, type: 3}
+  m_PrefabInstance: {fileID: 279591223}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &279591225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279591224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc11e80582ef88e449aa5f62d33f2a64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gem: {fileID: 468184293}
+  background: {fileID: 1875767817}
+  teleportDestination: Level 3
 --- !u!1 &336552961
 GameObject:
   m_ObjectHideFlags: 0

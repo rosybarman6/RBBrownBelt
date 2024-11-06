@@ -12,7 +12,7 @@ public class Exit : MonoBehaviour
     {
         if(gem.activeInHierarchy == false)
         {
-            background.GetComponent<GameManager>().TeleportOpen(teleportDestination);
+            background.GetComponent<GameManager>().TeleportOpen(teleportDestination); 
         }
     }
 }
