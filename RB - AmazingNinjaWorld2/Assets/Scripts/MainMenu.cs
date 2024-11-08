@@ -13,14 +13,16 @@ public class MainMenu : MonoBehaviour
 
     public void Level2()
     {
-        SceneManager.LoadScene("Level2");
+        SceneManager.LoadScene("Level 2");
         //PlayerPrefs.DeleteKey("LIVES_LEFT");
     }
 
     public void Level3()
     {
         SceneManager.LoadScene("Level3");
-        //PlayerPrefs.DeleteKey("LIVES_LEFT");
+       
+        
+        // PlayerPrefs.DeleteKey("LIVES_LEFT");
     }
 
 
