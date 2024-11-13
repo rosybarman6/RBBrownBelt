@@ -1089,6 +1089,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340176270}
     m_Modifications:
+    - target: {fileID: 1930300908847633743, guid: 96524b76c6a28e54d8bf1b2e3d7ddb55, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.45762968
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930300908847633743, guid: 96524b76c6a28e54d8bf1b2e3d7ddb55, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930300908847633743, guid: 96524b76c6a28e54d8bf1b2e3d7ddb55, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1930300908847633776, guid: 96524b76c6a28e54d8bf1b2e3d7ddb55, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
@@ -1140,6 +1152,18 @@ PrefabInstance:
     - target: {fileID: 1930300910380831704, guid: 96524b76c6a28e54d8bf1b2e3d7ddb55, type: 3}
       propertyPath: m_Name
       value: TeleportPad
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930300910637332833, guid: 96524b76c6a28e54d8bf1b2e3d7ddb55, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.70860076
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930300910637332833, guid: 96524b76c6a28e54d8bf1b2e3d7ddb55, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.47547168
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930300910637332833, guid: 96524b76c6a28e54d8bf1b2e3d7ddb55, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1930300910637332834, guid: 96524b76c6a28e54d8bf1b2e3d7ddb55, type: 3}
       propertyPath: m_Materials.Array.size
@@ -1217,11 +1241,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6514645643609296727, guid: 2cc2d336f55fcd342b083c2a033cc30d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.273
+      value: 0.338
       objectReference: {fileID: 0}
     - target: {fileID: 6514645643609296727, guid: 2cc2d336f55fcd342b083c2a033cc30d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.156
+      value: 0.096
       objectReference: {fileID: 0}
     - target: {fileID: 6514645643609296727, guid: 2cc2d336f55fcd342b083c2a033cc30d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1633,11 +1657,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a3614c18f3e6c7142832df541b2a093c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.81717
+      value: -0.27
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a3614c18f3e6c7142832df541b2a093c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.08407879
+      value: 6.47
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a3614c18f3e6c7142832df541b2a093c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2106,11 +2130,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6514645643609296727, guid: 2cc2d336f55fcd342b083c2a033cc30d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.254
+      value: -0.358
       objectReference: {fileID: 0}
     - target: {fileID: 6514645643609296727, guid: 2cc2d336f55fcd342b083c2a033cc30d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.117
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 6514645643609296727, guid: 2cc2d336f55fcd342b083c2a033cc30d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2293,11 +2317,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6514645643609296727, guid: 2cc2d336f55fcd342b083c2a033cc30d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.101
+      value: 0.027
       objectReference: {fileID: 0}
     - target: {fileID: 6514645643609296727, guid: 2cc2d336f55fcd342b083c2a033cc30d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.423
+      value: 0.173
       objectReference: {fileID: 0}
     - target: {fileID: 6514645643609296727, guid: 2cc2d336f55fcd342b083c2a033cc30d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2666,7 +2690,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947912950}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -63.521126, y: -5.4940786, z: 6.188817}
+  m_LocalPosition: {x: -65.5, y: -5.55, z: 6.188817}
   m_LocalScale: {x: 10.946689, y: 9.367308, z: 1}
   m_Children:
   - {fileID: 1416561160}
@@ -2770,6 +2794,18 @@ PrefabInstance:
     - target: {fileID: 748992279688134212, guid: 050efd230c4094246b4f2c6039b362e7, type: 3}
       propertyPath: m_Name
       value: gem
+      objectReference: {fileID: 0}
+    - target: {fileID: 748992279688134214, guid: 050efd230c4094246b4f2c6039b362e7, type: 3}
+      propertyPath: m_Color.b
+      value: 0.4346161
+      objectReference: {fileID: 0}
+    - target: {fileID: 748992279688134214, guid: 050efd230c4094246b4f2c6039b362e7, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 748992279688134214, guid: 050efd230c4094246b4f2c6039b362e7, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 748992279688134216, guid: 050efd230c4094246b4f2c6039b362e7, type: 3}
       propertyPath: allParticles
@@ -2964,11 +3000,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6514645643609296727, guid: 2cc2d336f55fcd342b083c2a033cc30d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.58
+      value: 0.541
       objectReference: {fileID: 0}
     - target: {fileID: 6514645643609296727, guid: 2cc2d336f55fcd342b083c2a033cc30d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.929
+      value: 0.666
       objectReference: {fileID: 0}
     - target: {fileID: 6514645643609296727, guid: 2cc2d336f55fcd342b083c2a033cc30d, type: 3}
       propertyPath: m_LocalPosition.z

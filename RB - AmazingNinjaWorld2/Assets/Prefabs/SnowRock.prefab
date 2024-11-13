@@ -90,7 +90,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6513057666280527031}
   m_LocalRotation: {x: 0, y: 0, z: -1, w: 0}
-  m_LocalPosition: {x: -0.16, y: -6.29, z: 0}
+  m_LocalPosition: {x: -0.43, y: -5.89, z: 0}
   m_LocalScale: {x: 8.735929, y: 11.586721, z: 5.7360005}
   m_Children: []
   m_Father: {fileID: 6518570782651383217}
@@ -118,6 +118,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -142,6 +144,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &6514388393455838115
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -180,7 +183,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6514388392840067042}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.133, y: -4.429, z: -5}
+  m_LocalPosition: {x: -0.53, y: -4.429, z: -5}
   m_LocalScale: {x: 1.924776, y: 1.1578695, z: 1}
   m_Children: []
   m_Father: {fileID: 6518570782651383217}
@@ -200,6 +203,8 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -225,7 +230,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 757745edd379ffd429f16ea4f8fe8d2e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0.6531253, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

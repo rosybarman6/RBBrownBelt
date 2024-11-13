@@ -15,4 +15,5 @@ public class Exit : MonoBehaviour
             background.GetComponent<GameManager>().TeleportOpen(teleportDestination); 
         }
     }
+    
 }
