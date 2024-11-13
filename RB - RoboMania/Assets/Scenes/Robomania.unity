@@ -1867,7 +1867,7 @@ GameObject:
   m_IsActive: 1
 --- !u!95 &1163686246
 Animator:
-  serializedVersion: 5
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1880,12 +1880,10 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &1163686247
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1992,7 +1990,7 @@ MonoBehaviour:
   yForce: 700
   xForce: 140
   xDirection: -1
-  yDirection: 0
+  yDirection: 1
 --- !u!114 &1163686251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2511,7 +2509,7 @@ MonoBehaviour:
   yForce: 700
   xForce: 130
   xDirection: 1
-  yDirection: 0
+  yDirection: 1
 --- !u!50 &1604866799
 Rigidbody2D:
   serializedVersion: 4
@@ -2548,7 +2546,7 @@ MonoBehaviour:
   healthBar: {fileID: 998872356}
 --- !u!95 &1604866801
 Animator:
-  serializedVersion: 5
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2561,12 +2559,10 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &1604866802
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3418,7 +3414,7 @@ MonoBehaviour:
   healthBar: {fileID: 247476598}
 --- !u!95 &6324454813764490544
 Animator:
-  serializedVersion: 5
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3431,9 +3427,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_KeepAnimatorControllerStateOnDisable: 0

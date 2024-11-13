@@ -27,20 +27,22 @@ public class EnemyMovement : MonoBehaviour
             xDirection = -1;
             enemyRigidbody.AddForce(Vector2.left * xForce);
         }
-        if (transform.position.y >= 1436)
+        if (transform.position.y >= 4)
         {
-            yDirection = 1;
-            enemyRigidbody.AddForce(Vector2.up * yForce);
+            Debug.Log("edsafcesd");
+            yDirection = -1;
+            enemyRigidbody.AddForce(Vector2.up * yForce * yDirection);
         }
 
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
-    {
+    {     
+        Vector2 jumpForce = new Vector2(xForce * xDirection, yForce * yDirection);
+        enemyRigidbody.AddForce(jumpForce);
         if(collision.gameObject.tag == "Ground")
         {
-            Vector2 jumpForce = new Vector2(xForce * xDirection, yForce);
-            enemyRigidbody.AddForce(jumpForce);
+            yDirection = -1;
         }
     }
 }
