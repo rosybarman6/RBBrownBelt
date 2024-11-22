@@ -18,13 +18,20 @@ public class InterfaceManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        dialogBox.SetActive(false);
+        if (npc.GetComponent<DialogOpen>().begin)
+        {
+            scatterCoins();
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (Input.GetButton("Submit") && dialogBox.activeInHierarchy == true)
+        {
+            dialogBox.SetActive(false);
+        }
     }
 
     public void CollectibleUpdate(int item)
@@ -34,6 +41,10 @@ public class InterfaceManager : MonoBehaviour
 
     public void ShowBox(string dialog, int item)
     {
+        dialogBox.SetActive(true);
+        dialogText.text = dialog;
+        seekImage.GetComponent<Image>().sprite = collectibleSource[item];
+
         if (npc.GetComponent<DialogOpen>().begin)
         {
             scatterCoins();

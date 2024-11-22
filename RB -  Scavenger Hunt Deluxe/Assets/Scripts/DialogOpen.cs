@@ -21,6 +21,7 @@ public class DialogOpen : MonoBehaviour
         greeting = GetComponent<AudioSource>();
         collectibles = new string[] { "film", "balloons", "life saver", "bull's eye", "pipe", "key", "fish", "birdhouse", "red airhorn", "magic hat" };
         createClue();
+        begin = true;
     }
 
     public void createClue()
@@ -38,6 +39,7 @@ public class DialogOpen : MonoBehaviour
         {
             checkClue();
         }
+        Debug.Log("hit");
         greeting.Play(0);
         interfaceManager.GetComponent<InterfaceManager>().ShowBox(dialog, clue);
     }
@@ -46,11 +48,12 @@ public class DialogOpen : MonoBehaviour
     {
         if (pHolding.holdValue == clue)
         {
+            dialog = "You found my " + collectibles[clue] + "! Hooray!";
             end = true;
         }
         else
         {
-
+            dialog = "No, that's not my " + collectibles[clue] + ".";
         }
     }
 

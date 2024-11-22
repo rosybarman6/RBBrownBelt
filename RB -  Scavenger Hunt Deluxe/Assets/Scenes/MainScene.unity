@@ -8090,9 +8090,20 @@ MonoBehaviour:
   dialogBox: {fileID: 941434207}
   dialogText: {fileID: 517406088}
   seekImage: {fileID: 1109171767}
-  npc: {fileID: 464020347}
+  npc: {fileID: 1238139383}
   randomSpawn: {fileID: 76737080}
-  collectibleSource: []
+  collectibleSource:
+  - {fileID: 8172802603990012788, guid: aa2f7368052a8dc4aa3aed60174c0cf8, type: 3}
+  - {fileID: 1783571423084753543, guid: aa2f7368052a8dc4aa3aed60174c0cf8, type: 3}
+  - {fileID: 8900746559048570500, guid: aa2f7368052a8dc4aa3aed60174c0cf8, type: 3}
+  - {fileID: 6605394885479416407, guid: aa2f7368052a8dc4aa3aed60174c0cf8, type: 3}
+  - {fileID: -7778573321910294260, guid: aa2f7368052a8dc4aa3aed60174c0cf8, type: 3}
+  - {fileID: 6672313735451557401, guid: aa2f7368052a8dc4aa3aed60174c0cf8, type: 3}
+  - {fileID: 2002844210455317834, guid: aa2f7368052a8dc4aa3aed60174c0cf8, type: 3}
+  - {fileID: -1219192660672367444, guid: aa2f7368052a8dc4aa3aed60174c0cf8, type: 3}
+  - {fileID: -4530596573005075802, guid: aa2f7368052a8dc4aa3aed60174c0cf8, type: 3}
+  - {fileID: -2268939224243244480, guid: aa2f7368052a8dc4aa3aed60174c0cf8, type: 3}
+  - {fileID: 5181749999454103145, guid: aa2f7368052a8dc4aa3aed60174c0cf8, type: 3}
 --- !u!1 &1639669579
 GameObject:
   m_ObjectHideFlags: 0
@@ -8241,7 +8252,7 @@ PrefabInstance:
     - target: {fileID: 1448194375, guid: 76e90693a46c5084788d209358a351b1, type: 3}
       propertyPath: iManager
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1618356892}
     - target: {fileID: 1448194375, guid: 76e90693a46c5084788d209358a351b1, type: 3}
       propertyPath: pHolding
       value: 
