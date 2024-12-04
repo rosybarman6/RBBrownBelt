@@ -12,6 +12,7 @@ public class DialogOpen : MonoBehaviour
     public bool end = false;
     private string[] collectibles;
     private int clue;
+    //private int clue1;
 
     private AudioSource greeting;
 
@@ -27,11 +28,43 @@ public class DialogOpen : MonoBehaviour
     public void createClue()
     {
         clue = Random.Range(0, 9);
+        
         searchDialog();
     }
     public void searchDialog()
     {
-        dialog = "Hi! Can you help me find my " + collectibles[clue] + "?";
+        if(clue == (0)) 
+        {
+            dialog = "Today's movie night I need my " + collectibles[clue] + "!";
+        } else if (clue == (1)) 
+        {
+            dialog = "Today's my birthday, can you help me find my " + collectibles[clue] + "?";
+        } else if (clue == (2)) 
+        {
+            dialog = "I'm going to the beach, can you help me find my " + collectibles[clue] + "?";
+        } else if (clue == (3)) 
+        {
+            dialog = "I need to practice my archery and i need my " + collectibles[clue] + "!";
+        } else if (clue == (4)) 
+        {
+            dialog = "I'm manifesting my inner Old man, I need a " + collectibles[clue] + ".";
+        } else if (clue == (5)) 
+        {
+            dialog = "I'm locked out of my house! I need a " + collectibles[clue] + "!";
+        } else if (clue == (6))
+        {
+            dialog = "Have you seen Gerald? my pet " + collectibles[clue] + "?";
+        } else if (clue == (7)) 
+        {
+            dialog = "theres so many birds near my backyard, they need a " + collectibles[clue] + ".";
+        } else if (clue == (8)) 
+        {
+            dialog = "I'm trying to prank my friend! I need my " + collectibles[clue] + "!";
+        } else if (clue == (9)) {
+            dialog = "I can't find my bunny! maybe hes in a " + collectibles[clue] + "! help me find one!";
+        }
+
+
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
