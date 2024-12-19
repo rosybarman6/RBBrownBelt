@@ -57,7 +57,7 @@ public class HUD : MonoBehaviour
         remainingText.text = remaining;
     }
 
-    public void SetLevelType (Level.LevelType type) {
+    public void SetLevelType(Level.LevelType type) {
         switch (type) {
             case Level.LevelType.MOVES:
                 remainingSubtext.text = "Moves Remaining";
@@ -72,14 +72,15 @@ public class HUD : MonoBehaviour
                 targetSubtext.text = "Target Score";
                 break;
         }
-
-    public void OnGameWin(int score) {
-            isGameover = true;
-        }
-
-    public void OnGameLose(int score) {
-            isGameover = false;
-        }
     }
+
+     public void OnGameWin(int score) {
+            isGameover = true;
+      }
+
+    public void OnGameLose() 
+      {
+            isGameover = false;
+      }
 }
     

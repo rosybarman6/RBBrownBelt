@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Level : MonoBehaviour
 {
+
     public enum LevelType
     {
         TIMER,
@@ -12,6 +13,7 @@ public class Level : MonoBehaviour
     };
 
     public GameGrid grid;
+    public HUD hud;
 
     public int score1Star;
     public int score2Star;
@@ -31,7 +33,7 @@ public class Level : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-
+        hud.SetScore(currentScore);
     }
 
     // Update is called once per frame
