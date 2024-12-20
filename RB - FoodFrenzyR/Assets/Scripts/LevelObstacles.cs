@@ -11,11 +11,14 @@
     {
         type = LevelType.OBSTACLE;
 
-        for(int i=0; i<obstacleTypes.Length; i++)
+        for (int i=0; i<obstacleTypes.Length; i++)
         {
             numObstaclesLeft += grid.GetPiecesOfType(obstacleTypes[i]).Count;
         }
-
+        hud.SetLevelType(type);
+        hud.SetScore(currentScore);
+        hud.SetTarget(numObstaclesLeft);
+        hud.SetRemaining(numMoves);
     }
 
     // Update is called once per frame
@@ -30,6 +33,7 @@
 
         movesUsed++;
 
+        hud.SetRemaining(numMoves - movesUsed);
         if (numMoves - movesUsed == 0 && numObstaclesLeft > 0)
         {
             GameLose();
@@ -45,6 +49,7 @@
             if(obstacleTypes[i] == piece.Type)
             {
                 numObstaclesLeft--;
+                hud.SetTarget(numObstaclesLeft);
 
                 if (numObstaclesLeft == 0)
                 {

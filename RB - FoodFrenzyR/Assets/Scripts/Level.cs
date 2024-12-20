@@ -65,6 +65,8 @@ public class Level : MonoBehaviour
     {
         //Update Score
         currentScore += piece.score;
+
+        hud.SetScore(currentScore);
     }
 
     protected virtual IEnumerator WaitForGridFill()
@@ -72,6 +74,12 @@ public class Level : MonoBehaviour
         while (grid.IsFilling)
         {
             yield return 0;
+        }
+
+        if(didWin && !grid.IsFilling) {
+            hud.OnGameWin(currentScore);
+        } else {
+            hud.OnGameLose();
         }
 
     }
