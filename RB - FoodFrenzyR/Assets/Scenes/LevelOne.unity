@@ -123,6 +123,31 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &6775523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2706930885816243394, guid: 5a74845e21cf15248a30ac9335afa804, type: 3}
+  m_PrefabInstance: {fileID: 9117922890289885290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &6775525
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6775523}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 11766372b32fcf640b90f114c6ae7c8e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &148877207
 GameObject:
   m_ObjectHideFlags: 0
@@ -706,13 +731,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2355043690011608103, guid: 5a74845e21cf15248a30ac9335afa804, type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355043690011608103, guid: 5a74845e21cf15248a30ac9335afa804, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355043690011608103, guid: 5a74845e21cf15248a30ac9335afa804, type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355043690011608103, guid: 5a74845e21cf15248a30ac9335afa804, type: 3}
+      propertyPath: m_FontData.m_RichText
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355043690011608103, guid: 5a74845e21cf15248a30ac9335afa804, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355043690011608103, guid: 5a74845e21cf15248a30ac9335afa804, type: 3}
+      propertyPath: m_FontData.m_AlignByGeometry
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4404155030093464616, guid: 5a74845e21cf15248a30ac9335afa804, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9117922890358516759, guid: 5a74845e21cf15248a30ac9335afa804, type: 3}
       propertyPath: m_Name
       value: Game UI Canvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 9117922890358516968, guid: 5a74845e21cf15248a30ac9335afa804, type: 3}
-      propertyPath: level
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 9117922890358516971, guid: 5a74845e21cf15248a30ac9335afa804, type: 3}
       propertyPath: m_Pivot.x
