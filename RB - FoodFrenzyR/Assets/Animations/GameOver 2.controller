@@ -1,46 +1,13 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
-<<<<<<< HEAD
---- !u!1107 &-7936737394341093222
-AnimatorStateMachine:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Base Layer
-  m_ChildStates:
-  - serializedVersion: 1
-    m_State: {fileID: 5368916596447960406}
-    m_Position: {x: 260, y: 60, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -4007744661682552277}
-    m_Position: {x: 270, y: 120, z: 0}
-  m_ChildStateMachines: []
-  m_AnyStateTransitions: []
-  m_EntryTransitions: []
-  m_StateMachineTransitions: {}
-  m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 50, y: 20, z: 0}
-  m_EntryPosition: {x: 50, y: 120, z: 0}
-  m_ExitPosition: {x: 500, y: 40, z: 0}
-  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: 5368916596447960406}
---- !u!1102 &-4007744661682552277
-=======
---- !u!1102 &-3717963149070439452
->>>>>>> 2876e2e3c7b5bcb2d367bc3b05dcc62290ea0d7c
+--- !u!1102 &-3273707565180712818
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_Name: GameOverDisplay 0
-=======
-  m_Name: GameOverDisplay
->>>>>>> 2876e2e3c7b5bcb2d367bc3b05dcc62290ea0d7c
+  m_Name: New State
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -53,7 +20,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 2773a791885f1c341811d2d454b08c9b, type: 2}
+  m_Motion: {fileID: 0}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -65,17 +32,13 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GameOver 1
+  m_Name: GameOver 2
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
-<<<<<<< HEAD
-    m_StateMachine: {fileID: -7936737394341093222}
-=======
-    m_StateMachine: {fileID: 3738218495232028014}
->>>>>>> 2876e2e3c7b5bcb2d367bc3b05dcc62290ea0d7c
+    m_StateMachine: {fileID: 1058431106409033191}
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -85,20 +48,14 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
-<<<<<<< HEAD
---- !u!1102 &5368916596447960406
+--- !u!1102 &730468404362256774
 AnimatorState:
-=======
---- !u!1107 &3738218495232028014
-AnimatorStateMachine:
->>>>>>> 2876e2e3c7b5bcb2d367bc3b05dcc62290ea0d7c
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_Name: GameOverDisplay
+  m_Name: GameOverDisplay 1
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -111,18 +68,27 @@ AnimatorStateMachine:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 2773a791885f1c341811d2d454b08c9b, type: 2}
+  m_Motion: {fileID: 7400000, guid: 236e25bc3b74bc947bc70a878a892096, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
-=======
+--- !u!1107 &1058431106409033191
+AnimatorStateMachine:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: -3717963149070439452}
-    m_Position: {x: 200, y: 0, z: 0}
+    m_State: {fileID: 730468404362256774}
+    m_Position: {x: 370, y: 30, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -3273707565180712818}
+    m_Position: {x: 350, y: 170, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -130,7 +96,6 @@ AnimatorStateMachine:
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
-  m_ExitPosition: {x: 800, y: 120, z: 0}
+  m_ExitPosition: {x: 750, y: 80, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: -3717963149070439452}
->>>>>>> 2876e2e3c7b5bcb2d367bc3b05dcc62290ea0d7c
+  m_DefaultState: {fileID: -3273707565180712818}
