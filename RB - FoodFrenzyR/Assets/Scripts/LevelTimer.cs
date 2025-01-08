@@ -26,11 +26,7 @@ public class LevelTimer : Level
         if (!timeOut)
         {
             timer += Time.deltaTime;
-<<<<<<< HEAD
             hud.SetRemaining(string.Format("{0}:{1:00}", (int)Mathf.Max((timeInSeconds - timer) / 60, 0), (int)Mathf.Max(timeInSeconds - timer) % 60, 0));
-=======
-            hud.SetRemaining(string.Format("{0}:{1:00}", (int)Mathf.Max((timeInSeconds - timer) / 60, 0), (int)Mathf.Max((timeInSeconds - timer) % 60, 0)));
->>>>>>> 2876e2e3c7b5bcb2d367bc3b05dcc62290ea0d7c
             if (timeInSeconds - timer <= 0)
             {
                 if (currentScore >= targetScore)
