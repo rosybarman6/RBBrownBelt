@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameOver : MonoBehaviour
 {
     public GameObject screenParent;
     public GameObject scoreParent;
-    public Text loseText;
-    public Text scoreText;
+    public TextMeshProUGUI loseText;
+    public TextMeshProUGUI scoreText;
     public Image[] stars;
     private Animator animator;
     // Start is called before the first frame update

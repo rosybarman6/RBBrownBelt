@@ -254,11 +254,6 @@ MonoBehaviour:
   score3Star: 21000
   numMoves: 14
   targetScore: 15000
---- !u!1 &368546083 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6603016993929090314, guid: 5a74845e21cf15248a30ac9335afa804, type: 3}
-  m_PrefabInstance: {fileID: 9117922890289885290}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &581336195
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,11 +512,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &615973874 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8834436949316882406, guid: 5a74845e21cf15248a30ac9335afa804, type: 3}
-  m_PrefabInstance: {fileID: 9117922890289885290}
-  m_PrefabAsset: {fileID: 0}
 --- !u!850595691 &850217271
 LightingSettings:
   m_ObjectHideFlags: 0
