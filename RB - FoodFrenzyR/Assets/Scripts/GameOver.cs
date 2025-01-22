@@ -9,7 +9,7 @@ public class GameOver : MonoBehaviour
 {
     public GameObject screenParent;
     public GameObject scoreParent;
-    public TextMeshProUGUI loseText;
+    public Text loseText;
     public TextMeshProUGUI scoreText;
     public Image[] stars;
     private Animator animator;
