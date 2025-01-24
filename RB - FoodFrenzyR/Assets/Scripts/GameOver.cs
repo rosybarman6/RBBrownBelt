@@ -67,7 +67,7 @@ public class GameOver : MonoBehaviour
     }
 
     public void OnDoneClicked() {
-
+        SceneManager.LoadScene("LevelSelect");
     }
 
 }
